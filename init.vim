@@ -25,8 +25,8 @@ set updatetime=50
 
 call plug#begin('~/.vim/plugged')
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'sickill/vim-monokai'
+Plug 'tomasr/molokai'
 call plug#end()
 
-colorscheme monokai
+colorscheme molokai
 highlight Normal guibg=NONE
